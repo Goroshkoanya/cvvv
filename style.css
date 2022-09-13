@@ -1,0 +1,175 @@
+
+body {
+    background: rgb(166, 192, 235);
+    font-size: 16px;
+}
+
+a {
+    color: rgb(141, 50, 168);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+ a:active {
+    color:rgb(247, 160, 222);
+ }
+
+ a:visited {
+    color: gray;
+ }
+
+/* h1 {
+    color: rgb(132, 46, 109);
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+} */
+.avatar1 {
+    margin-right: 200px;
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 6px 8px 24px rgb(247, 160, 222);
+    
+}
+.avatar2 {
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 6px 8px 24px rgb(247, 160, 222);
+}
+.fotki {
+    color:rgb(235, 166, 204);
+    margin: 0;
+}
+.text p {
+    color: rgb(88, 43, 110);
+    margin: 0;
+    font-style: italic;
+    text-decoration: none;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+@media (max-width: 700px) {
+    .text p {
+        display: block;
+        text-align: center;
+    }
+}
+
+.cont {
+    max-width: 750px;
+    margin: auto;
+}
+/* .seti {
+    background-color: rgb(147, 155, 189);
+    padding: 15px;
+    border: 5px dotted rgb(143, 116, 155);
+    margin: 5px;
+} */
+
+.bg-yellow {
+    background: rgb(211, 211, 116);
+    margin-bottom: 20px;
+}
+
+.bg-green {
+    background: rgb(143, 203, 143);
+}
+
+.bg-red {
+    background: rgb(206, 142, 142);
+    border: 10px;
+    padding-bottom: 10px;
+}
+
+.card {
+    text-indent: 30px;
+    padding: 1 px 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.spisok {
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.spisok li {
+    border-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+    text-indent: 30px;
+}
+
+.dvor {
+    list-style: circle;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.svyz {
+    
+    background-color: rgb(222, 106, 203);
+    background-size: 2px 2px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.namee label {
+display: block;
+font-size: 16px;
+}
+
+.namee input {
+    width: 30%;
+    box-sizing: border-box;
+    border: none;
+}
+
+.instag label {
+    display: block;
+    font-size: 16px;
+}
+
+.instag input {
+    width: 30%;
+    box-sizing: border-box;
+    border: none;
+}
+
+.say label {
+    display: block;
+    font-size: 16px;
+}
+
+.say input {
+    width: 30%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    color: cornflowerblue;
+}
+
+.btn {
+    background: rgb(222, 106, 203);
+    padding: 15px 20px;
+    color: black;
+    border: none;
+    font-family: inherit; 
+    text-align: center;
+    font-size: 18px;
+}
+
